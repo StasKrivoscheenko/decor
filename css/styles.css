@@ -10,6 +10,18 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-Medium.eot');
+    src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaBT-Medium.woff2') format('woff2'),
+    url('../fonts/FuturaBT-Medium.woff') format('woff'),
+    url('../fonts/FuturaBT-Medium.ttf') format('truetype'),
+    url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     padding: 0;
     margin: 0;
@@ -36,14 +48,16 @@ header nav ul{
     background:rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 36px 33px;
-    margin: 30px 98px 163px;
-    display: flex
+    display: flex;
+    margin-bottom: 152px;
+    margin-top: 67px;
+    font-family: 'Roboto',sans-serif;
 }
 header nav ul li{
     padding-right: 20px
 }
 header nav ul li a{
-    font-family: 'Roboto';
+    font-family: 'Poppins', sans-serif;
 }
 .link{
     font-size: 16px;
@@ -63,15 +77,16 @@ header ul li{
     padding-right: 20px
 }
 h1{
+    font-family: 'Futura Md BT',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
     line-height: 130%;
     color: #FFFFFF;
-    padding: 107px 164px 30px 163px
+    margin-top: 107px;
 }
-.buylink{
-    margin-left: 100px;
+.buy_link{
+    font-family: 'Roboto',sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
@@ -103,6 +118,7 @@ section article p{
     font-size: 20px
 }
 section form h3{
+    font-family: 'Gothic A1', sans-serif;
     margin-bottom: 30px;
     font-size: 24px;
     color: black
@@ -129,7 +145,7 @@ section form textarea{
     height: 30px
 }
 .m-w_615{
-    max-width: 615.65px
+    max-width: 615px
 }
 .form{
     max-width: 392px
@@ -142,6 +158,7 @@ section form textarea{
     margin-bottom: 200px
 }
 .text2{
+    font-family: 'Gothic A1', sans-serif;
     font-size: 24px;
     color: black;
 }
@@ -150,4 +167,21 @@ section form textarea{
 }
 .m-w_770{
     max-width: 770px;
+    margin-left: 120px;
+}
+.text3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+.text4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+.img_indent2{
+    margin-bottom: 150px
+}
+.label{
+
 }

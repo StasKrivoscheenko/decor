@@ -6,6 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -37,8 +43,8 @@
             <img src="images/Frame.svg" alt="Gift_box">
             <p>Наши клиенты получают скидку 10%<br> на материалы</p>
         </article>
-        <div class="container">
-            <a class="buylink" href="#" target="_blank">Заказать проект</a>
+        <div>
+            <a class="buy_link" href="#" target="_blank">Заказать проект</a>
         </div>
     </div>
 </section>
@@ -48,13 +54,16 @@
         <form method="post" action="#" class="form">
             <h3>Давайте обсудим ваш проект</h3>
             <div class="indent">
-                <input type="text" placeholder="Имя">
+                <label for="name"></label>
+                <input id="name" type="text" placeholder="Имя">
             </div>
             <div class="indent">
-                <input type="tel" placeholder="Номер телефона">
+                <label for="nomer"></label>
+                <input id="nomer" type="tel" placeholder="Номер телефона">
             </div>
             <div class="indent">
-                <textarea placeholder="Комментарий"></textarea>
+                <label for="comment"></label>
+                <textarea id="comment" placeholder="Комментарий"></textarea>
             </div>
             <button type="submit" class="submitbutton">Заказать проект</button>
         </form>
@@ -69,9 +78,10 @@
     <div class="container d-flex">
         <div class="m-w_385">
             <h3 class="text2 indent">О нас</h3>
-            <p class="text2 indent">Мы хотим что бы наши проекты соответствовали нашим высоким требованиям и желаниям
+            <p class="text3 indent">Мы хотим что бы наши проекты соответствовали нашим высоким требованиям и желаниям
                 заказчика, были актуальными и уникальными.</p>
-            <p class="text2"><b>Décor color expert</b> - это команда профессионалов, которые воплощают в реальность
+            <p class="text4"><strong>Décor color expert</strong> - это команда профессионалов, которые воплощают в
+                реальность
                 самые сложные пожелания заказчика. Мы не просто делаем штукатурные работы и предоставляем услуги по
                 окрашиванию стен, а создаем искусство, которое долгие годы будет радовать Ваш глаз и сохранит
                 первоклассное качество.</p>
@@ -80,6 +90,30 @@
         <div class="m-w_770">
             <img src="images/kartinka2.jpg" alt="kartinka" class="width">
         </div>
+    </div>
+</section>
+<section>
+    <img src="images/verh.png" alt="header" class="img_indent2 width">
+    <h3>Каталог фактур</h3>
+    <div class="container d-flex">
+        <label for="image1">GROTTO</label>
+        <img id="image1" src="images/Rectangle7.jpg" alt="image1">
+        <label for="image2">MARMORINO</label>
+        <img id="image2" src="images/Rectangle8.jpg" alt="image2">
+        <label for="image3">VENEZIANO</label>
+        <img id="image3" src="images/Rectangle9.jpg" alt="image3">
+        <label for="image4">MAGIE</label>
+        <img id="image4" src="images/Rectangle10.jpg" alt="image4">
+    </div>
+    <div class="container d-flex">
+        <label for="image5">LAVA</label>
+        <img id="image5" src="images/lava.jpg" alt="image1">
+        <label for="image6">PERSIA</label>
+        <img id="image6" src="images/persia.jpg" alt="image2">
+        <label for="image7">SAHARA GOLD</label>
+        <img id="image7" src="images/sahara_gold.jpg" alt="image3">
+        <label for="image8">TRAVERTINO</label>
+        <img id="image8" src="images/travertino.jpg" alt="image4">
     </div>
 </section>
 </body>
