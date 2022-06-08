@@ -185,3 +185,22 @@ section form textarea{
 .label{
 
 }
+.indent_bottom{
+    margin-bottom: 52px;
+}
+.indent_bottom_40{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.indent_top_20{
+    margin-top: 20px;
+}
+.m_auto{
+    margin: auto;
+}
+.katalog{
+    text-align: center;
+}
+.indent_bottom_152{
+    margin-bottom: 152px;
+}
