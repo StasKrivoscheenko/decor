@@ -204,3 +204,145 @@ section form textarea{
 .indent_bottom_152{
     margin-bottom: 152px;
 }
+.indent_bottom_170{
+    margin-bottom: 170px;
+}
+.katalog div img{
+    margin-right: 30px;
+}
+.marmorino{
+    position: relative;
+    right: 55px;
+}
+.VENEZIANO{
+    position: relative;
+    right: 150px;
+}
+.MAGIE{
+    position: relative;
+    right: 235px;
+}
+.persia{
+    position: relative;
+    right: 30px;
+}
+.saharagold{
+    position: relative;
+    right: 80px;
+}
+.travertino{
+    position: relative;
+    right: 185px;
+}
+.katalog h3{
+    position: relative;
+    right: 400px;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: black;
+}
+.katalog div p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+}
+.video{
+    margin-top: 170px;
+    background-image: url("../images/videofon.png");
+    background-size: cover;
+    height: 75vh;
+    padding-top: 60px;
+    position: relative;
+}
+.video h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    max-width: 1110px;
+    margin: auto;
+    padding-left: 95px;
+}
+.video1{
+    border-radius: 23px;
+}
+.video div img{
+    margin-right: 30px;
+    margin-top: 87px;
+}
+.video div h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.video div p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.marmushka3{
+    position: relative;
+    left: 10px;
+}
+.video_h3_1{
+    position: relative;
+    right: 114px;
+}
+.video_h3_2{
+    position: relative;
+    right: 114px;
+}
+.video_h3_3{
+    position: relative;
+    right: 104px;
+}
+.video_h3_4{
+    position: relative;
+    right: 104px;
+}
+.position{
+    position: absolute;
+    left: 470px;
+    top: 170px;
+}
+.container_video{
+    max-width: 1440px;
+    margin: auto;
+}
+.video_vector2{
+    position: relative;
+    right: 255px;
+}
+.position2{
+    position: absolute;
+    left: 760px;
+    top: 170px;
+}
+.position3{
+    position: absolute;
+    left: 1070px;
+    top: 170px;
+}
+.position4{
+    position: absolute;
+    left: 1370px;
+    top: 170px;
+}
+
+
+
