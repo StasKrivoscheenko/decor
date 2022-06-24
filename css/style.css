@@ -120,7 +120,7 @@ h1{
     color: #FFFFFF;
     font-size: 20px
 }
-section form h3{
+.discuss form h3{
     font-family: 'Gothic A1', sans-serif;
     margin-bottom: 30px;
     font-size: 24px;
@@ -132,14 +132,14 @@ section form h3{
 .width{
     width: 100%
 }
-section form input{
+.discuss form input{
     border: none;
     font-size: 16px;
     border-bottom: solid 1px;
     width: 392px;
     height: 40px
 }
-section form textarea{
+.discuss form textarea{
     resize: none;
     font-size: 16px;
     border: none;
@@ -403,8 +403,8 @@ section form textarea{
 }
 .order_main form input{
     position: absolute;
-    right: -150px;
-    top: 15px;
+    right: 20px;
+    top: 27px;
 }
 .order_box{
     display: flex;
