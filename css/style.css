@@ -456,6 +456,14 @@ section form textarea{
     margin: auto;
     text-align: center;
 }
+.end p{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
 .catalog{
     margin: auto;
     padding-bottom: 170px;
