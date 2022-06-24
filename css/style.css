@@ -325,7 +325,7 @@ section form textarea{
     margin: auto;
     margin-bottom: 10px;
 }
-.quest_banner h3{
+.quest_banner h3, .quest_banner h2{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -367,7 +367,7 @@ section form textarea{
     top: 15px;
 }
 .select_method .last_method{
-    top: 16px;
+
 }
 .quest_form label{
     position: relative;
@@ -411,6 +411,19 @@ section form textarea{
     color: #FFFFFF;
     padding: 20px 116px;
     background: #8F8F8F;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+.quest_form_right .button_back2{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 20px 116px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     border: none;
