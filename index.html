@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,10 +8,15 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
@@ -112,22 +117,22 @@
         <div class="d-flex">
             <div class="owl-carousel">
                 <div>
-                    <img src="images/portf1.jpg">
+                    <img src="images/portf1.jpg" alt="vector">
                     <h3><strong>Travertino FEIDAL</strong></h3>
                     <p>Матеріал дає можливість отримати ефект природного каменю<br> травертину.</p>
                 </div>
                 <div>
-                    <img src="images/portf2.jpg">
+                    <img src="images/portf2.jpg" alt="vector">
                     <h3><strong>Innenlatex Seidenmatt FEIDAL</strong></h3>
                     <p>Особливо стійка до миття та до дії миючих та дезінфікуючих засобів, має нейтральний запах.</p>
                 </div>
                 <div>
-                    <img src="images/portf1.jpg">
+                    <img src="images/portf1.jpg" alt="vector">
                     <h3><strong>Travertino FEIDAL</strong></h3>
                     <p>Матеріал дає можливість отримати ефект природного каменю<br> травертину.</p>
                 </div>
                 <div>
-                    <img src="images/portf2.jpg">
+                    <img src="images/portf2.jpg" alt="vector">
                     <h3><strong>Innenlatex Seidenmatt FEIDAL</strong></h3>
                     <p>Особливо стійка до миття та до дії миючих та дезінфікуючих засобів, має нейтральний запах.</p>
                 </div>
@@ -138,13 +143,63 @@
         <a class="buy_link" href="#" target="_blank">Оставить заявку</a>
     </div>
 </section>
+<div id="accordion">
+    <h3>Section 1</h3>
+    <div>
+        <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+        <p>
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+        </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+        <p>
+            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+        </p>
+        <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+        </ul>
+    </div>
+    <h3>Section 4</h3>
+    <div>
+        <p>
+            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est.
+        </p>
+        <p>
+            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos.
+        </p>
+    </div>
+</div>
 <section class="quest_banner">
     <div class="quest_header">
         <h2>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h2>
     </div>
     <div class="quest_main">
-        <h2>Какая услуга Вас интересует?</h2>
-        <h2>Вопрос 1 из 5</h2>
+        <h3>
+            <span>Какая услуга Вас интересует?</span>
+            <span>Вопрос 1 из 5</span>
+        </h3>
         <form method="post" action="#" name="quest">
             <div class="quest_form">
                 <div class="select_method">
@@ -175,65 +230,156 @@
 <section class="catalog">
     <img src="images/verh.png" alt="header" class="width">
     <div class="block_fac">
-        <div class="block_line">
-        <div class="block">
-            <div class="width">
-                <img src="images/Rectangle7.jpg">
+        <h2>Каталог фактур</h2>
+        <div class="block_line_1">
+            <div class="block">
+                <div class="width">
+                    <img src="images/Rectangle7.jpg" alt="vector">
+                </div>
+                <p>GROTTO</p>
             </div>
-            <p>GROTTO</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/Rectangle8.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/Rectangle8.jpg" alt="vector">
+                </div>
+                <p>MARMORINO</p>
             </div>
-            <p>MARMORINO</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/Rectangle9.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/Rectangle9.jpg" alt="vector">
+                </div>
+                <p>VENEZIANO</p>
             </div>
-            <p>VENEZIANO</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/Rectangle10.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/Rectangle10.jpg" alt="vector">
+                </div>
+                <p>MAGIE</p>
             </div>
-            <p>MAGIE</p>
         </div>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/lava.jpg">
+        <div class="block_line_2">
+            <div class="block">
+                <div class="width">
+                    <img src="images/lava.jpg" alt="vector">
+                </div>
+                <p>LAVA</p>
             </div>
-            <p>LAVA</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/persia.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/persia.jpg" alt="vector">
+                </div>
+                <p>PERSIA</p>
             </div>
-            <p>PERSIA</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/sahara_gold.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/sahara_gold.jpg" alt="vector">
+                </div>
+                <p>SAHARA GOLD</p>
             </div>
-            <p>SAHARA GOLD</p>
-        </div>
-        <div class="block">
-            <div class="width">
-                <img src="images/travertino.jpg">
+            <div class="block">
+                <div class="width">
+                    <img src="images/travertino.jpg" alt="vector">
+                </div>
+                <p>TRAVERTINO</p>
             </div>
-            <p>TRAVERTINO</p>
         </div>
     </div>
-
+    <div class="center">
+        <a class="buy_link" href="#" target="_blank">Показать больше</a>
+    </div>
 </section>
+
+<section class="video">
+    <div class="block_fac">
+        <h2>Видеоотзывы</h2>
+        <div class="block_line_2">
+            <div class="block">
+                <img class="first" src="images/video1.jpg" alt="video">
+                <h3>Влажность и мебель</h3>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+                <img class="play" src="images/Vector.png" alt="vector">
+            </div>
+            <div class="block">
+                <img src="images/video2.png" alt="video">
+                <h3>Влажность и мебель</h3>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+                <img class="play" src="images/Vector.png" alt="vector">
+            </div>
+            <div class="block">
+                <img src="images/video3.png" alt="video">
+                <h3>Влажность и мебель</h3>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+                <img class="play" src="images/Vector.png" alt="vector">
+            </div>
+            <div class="block">
+                <img src="images/video4.png" alt="video">
+                <h3>Влажность и мебель</h3>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+                <img class="play" src="images/Vector.png" alt="vector">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="discuss">
+    <img src="images/verh.png" alt="header" class="img_indent width">
+    <div class="container d-flex">
+        <form method="post" action="#" class="form">
+            <h3>Давайте обсудим ваш проект</h3>
+            <div class="indent">
+                <label for="name"></label>
+                <input id="name" type="text" placeholder="Имя">
+            </div>
+            <div class="indent">
+                <label for="nomer"></label>
+                <input id="nomer" type="tel" placeholder="Номер телефона">
+            </div>
+            <div class="indent">
+                <label for="comment"></label>
+                <textarea id="comment" placeholder="Комментарий"></textarea>
+            </div>
+            <button type="submit" class="submitbutton">Заказать проект</button>
+        </form>
+
+        <div class="m-w_615">
+            <img src="images/kartinka.jpg" alt="kartinka" class="width">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="block_fac">
+        <div class="d-flex">
+            <div class="kontakts">
+                <h3>Контакты</h3>
+                <p class="footer_paragraph">Мы в соц. сетях</p>
+                <div class="d-flex">
+                    <img src="images/facebook.svg" alt="face">
+                    <img src="images/telegram.svg" alt="telegram">
+                    <img src="images/insta.svg" alt="insta">
+                    <img src="images/viber.svg" alt="viber">
+                </div>
+            </div>
+            <div class="kontakts">
+                <p>General contacts
+                <p>
+                <p class="footer_paragraph">example@gmail.com</p>
+                <p>+7 495 178 57 17</p>
+            </div>
+            <div class="map">
+                <div class="map_text">Нажмите чтобы<br> посмотреть на карте</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0724307338965!2d30.708240229915802!3d46.447630078792464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6335a549a45e7%3A0x3b437872209800be!2z0JzQsNC90LTQsNGA0LjQvSDQnNC10LHQtdC70Ywg4oCUINC60YPRhdC90Lgg0L3QsCDQt9Cw0LrQsNC3INCyINCe0LTQtdGB0YHQtQ!5e0!3m2!1sru!2sua!4v1656069001247!5m2!1sru!2sua"
+                        width="100%" height="100%" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="https://kit.fontawesome.com/75df03c6e6.js" crossorigin="anonymous"></script>
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
