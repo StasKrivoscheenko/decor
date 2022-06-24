@@ -333,14 +333,14 @@ h1{
 }
 .order_main{
     max-width: 1190px;
-    height: 680px;
+    height: 940px;
     background: #FFFFFF;
     border-radius: 20px;
     box-sizing: border-box;
     margin: auto;
     padding: 30px 30px 30px 30px;
 }
-.order_main h3{
+.ui-accordion .ui-accordion-header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -350,6 +350,15 @@ h1{
     font-size: 24px;
     line-height: 130%;
     color: #000000;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+.ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-content{
+    overflow: inherit;
 }
 .order_main form label{
     font-family: 'Roboto', sans-serif;
