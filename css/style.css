@@ -431,6 +431,7 @@ h1{
     font-size: 20px;
     line-height: 150%;
     color: white;
+    border: none;
 }
 .second_button{
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
@@ -444,6 +445,7 @@ h1{
     font-size: 20px;
     line-height: 150%;
     color: white;
+    border: none;
 }
 .pervaya{
     border-radius: 15px;
@@ -482,7 +484,6 @@ h1{
     margin: auto;
 }
 .block{
-    margin-right: 30px;
     max-width: 255px;
     position: relative;
 }
@@ -553,6 +554,7 @@ h1{
 }
 .first{
     border-radius: 25px;
+    width: 100%;
 }
 .discuss{
     margin: auto;
